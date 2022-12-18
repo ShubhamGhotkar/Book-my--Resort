@@ -1,0 +1,25 @@
+section {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 30vh;
+  background-color: rgb(224, 215, 215);
+}
+.service-div {
+  margin: auto;
+  min-width: 20vw;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.icon-big {
+  min-width: 2rem;
+  min-height: 2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+  section {
+    flex-wrap: wrap;
+  }
+}
