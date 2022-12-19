@@ -21,11 +21,11 @@ const sericesArray = [
 ];
 const Services = () => {
   return (
-    <section>
+    <section id="service-section">
       {sericesArray.map((items) => {
         return (
           <div className="service-div">
-            {<p>{items.icon}</p>}
+            {<p className="p-icon">{items.icon}</p>}
             <h3>{items.tittle}</h3>
             <p>{items.description}</p>
           </div>

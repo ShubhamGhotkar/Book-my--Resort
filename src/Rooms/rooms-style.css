@@ -1,0 +1,30 @@
+#room-container {
+  min-width: 80vw;
+  max-width: 90vw;
+  min-height: 50vh;
+  max-height: auto;
+  /* background-color: orange; */
+  margin: auto;
+}
+#import-header-div {
+  height: 15vh;
+}
+#search-room {
+  min-height: 10vh;
+  max-height: 15vh;
+  width: 100%;
+  margin: 5vh auto;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+}
+#h2 {
+  border-bottom: 2px solid goldenrod;
+  font-weight: 800;
+}
+#search-bar {
+  height: 20vh;
+  width: 100%;
+  background-color: rgb(212, 210, 210);
+  margin: 5vh auto;
+}
