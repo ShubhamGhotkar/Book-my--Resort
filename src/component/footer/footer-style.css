@@ -1,11 +1,11 @@
-footer {
+#footer {
   margin-top: 20vh;
   min-height: 90vh;
   max-height: auto;
   min-width: 100vw;
   max-width: 100vw;
   /* display: flex; */
-  background-color: rgb(31, 30, 30, 0.7);
+  background-color: rgba(33, 33, 33, 1);
 }
 
 #footerdiv1 {

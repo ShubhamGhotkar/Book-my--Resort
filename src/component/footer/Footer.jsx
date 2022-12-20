@@ -39,7 +39,7 @@ const Array3 = [
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer id="footer">
         <div className="footerdiv">
           <div id="footerdiv1">
             <p id="footer-p1">Book My Resort</p>
