@@ -1,10 +1,9 @@
-main {
+#main-container {
   display: grid;
-  max-width: 100vw;
-  min-width: 99vw;
+  max-width: 99vw;
+  min-width: 98vw;
   max-height: 100vh;
   min-height: 100vh;
-  /* overflow-x: hidden; */
   place-items: center;
   background-image: url("https://images.unsplash.com/photo-1570213489059-0aac6626cade?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-size: cover;
@@ -12,10 +11,10 @@ main {
 }
 #portal {
   display: grid;
-  min-height: 35vh;
-  max-height: 40vh;
-  min-width: 40vw;
-  max-width: 50vw;
+  min-height: 35%;
+  max-height: 40%;
+  min-width: 40%;
+  max-width: 50%;
   margin: auto;
   color: white;
   place-items: center;

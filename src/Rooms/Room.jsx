@@ -1,4 +1,5 @@
 import Header from "../component/Header/Header";
+import Footer from "../component/footer/Footer";
 import Card from "../component/features room/Card";
 import { cardArray } from "../component/features room/FeaturedRoom";
 import "./rooms-style.css";
@@ -38,6 +39,7 @@ const Room = () => {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

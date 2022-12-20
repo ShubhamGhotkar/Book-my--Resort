@@ -1,4 +1,5 @@
 import { TfiTwitterAlt, TfiYoutube, TfiInstagram } from "react-icons/tfi";
+// import TermConditon from "../pages/TermCondition";
 import "./footer-style.css";
 const Array1 = [
   { titile: "About Us" },
@@ -71,6 +72,10 @@ const Footer = () => {
           })}
         </div>
         <hr />
+        <p id="copyright">
+          {" "}
+          &#169;Copyright Agency and contributors 2022. ABN 53 001 228 799
+        </p>
       </footer>
     </>
   );

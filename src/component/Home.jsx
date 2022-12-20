@@ -3,6 +3,7 @@ import Main from "./main/Main";
 import Services from "./services/Services";
 import FeaturedRoom from "./features room/FeaturedRoom";
 import Footer from "./footer/Footer";
+import TermConditon from "./pages/TermCondition";
 
 const Home = () => {
   return (

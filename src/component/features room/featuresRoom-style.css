@@ -1,12 +1,12 @@
 #room-section {
   min-height: 50vh;
   max-height: auto;
-  width: 100vw;
+  min-width: 90vw;
+  max-width: 99vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10vh;
-  /* margin-top: 5rem; */
+  margin-top: 1px;
 }
 #card-container {
   display: flex;

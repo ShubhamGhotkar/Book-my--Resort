@@ -1,6 +1,5 @@
 import "./services-style.css";
 import { BiDrink } from "react-icons/bi";
-import { FaAccessibleIcon, BiBusSchool, CiBeerMugFull } from "react-icons/fa";
 
 const sericesArray = [
   {
@@ -22,15 +21,20 @@ const sericesArray = [
 const Services = () => {
   return (
     <section id="service-section">
-      {sericesArray.map((items) => {
-        return (
-          <div className="service-div">
-            {<p className="p-icon">{items.icon}</p>}
-            <h3>{items.tittle}</h3>
-            <p>{items.description}</p>
-          </div>
-        );
-      })}
+      <div id="service-tittle">
+        <p>OUR SERVICES</p>
+      </div>
+      <div id="ser-card-container">
+        {sericesArray.map((items) => {
+          return (
+            <div className="service-div">
+              {<p className="p-icon">{items.icon}</p>}
+              <h3>{items.tittle}</h3>
+              <p>{items.description}</p>
+            </div>
+          );
+        })}
+      </div>
     </section>
   );
 };
