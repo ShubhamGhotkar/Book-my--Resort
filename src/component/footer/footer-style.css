@@ -47,6 +47,7 @@
 .footer-icon {
   height: 5vh;
   width: 5vw;
+  color: rgb(201, 105, 201);
 }
 #Tc-container .tc-container-div {
   max-width: 400px;
@@ -83,16 +84,16 @@
   max-width: fit-content;
   margin: auto 1rem;
   padding: 4px;
-  /* background-color: red; */
 }
 .city-para:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid whitesmoke;
   cursor: pointer;
 }
 #copyright {
   min-height: 5vh;
   max-height: fit-content;
-  margin: auto;
+  margin: 1% auto;
   display: grid;
   place-items: center;
+  color: white;
 }

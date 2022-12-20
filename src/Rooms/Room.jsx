@@ -4,6 +4,7 @@ import Card from "../component/features room/Card";
 import { cardArray } from "../component/features room/FeaturedRoom";
 import "./rooms-style.css";
 import "../component/features room/featuresRoom-style.css";
+
 const cardArray2 = [
   ...cardArray,
   ...cardArray,

@@ -23,7 +23,8 @@
   font-weight: 800;
 }
 #search-bar {
-  height: 20vh;
+  min-height: 20vh;
+  max-height: auto;
   width: 100%;
   background-color: rgb(212, 210, 210);
   margin: 5vh auto;

@@ -6,7 +6,7 @@ import Home from "../Home";
 const Header = () => {
   const [check, setCheck] = useState(false);
   return (
-    <header>
+    <header id="header">
       <div className="header-div">
         <div id="div1">
           <h1 id="h1">

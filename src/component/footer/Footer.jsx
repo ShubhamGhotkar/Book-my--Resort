@@ -9,11 +9,10 @@ const Array1 = [
   { titile: "Trust And Safety" },
 ];
 const Array2 = [
-  { titile: "About Us" },
-  { titile: "Terms and conditions" },
-  { titile: "Guest Policies" },
-  { titile: "Privacy Policy" },
+  { titile: "Investor Relations" },
+  { titile: "Responsible Disclosure" },
   { titile: "Trust And Safety" },
+  { titile: "Cyber Security Awareness" },
 ];
 const Array3 = [
   { city: "Hotels in Mumbai" },

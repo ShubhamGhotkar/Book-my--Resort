@@ -1,8 +1,8 @@
 import Header from "../Header/Header";
 import InfoCard from "./InfoCard";
 
-import "../Header/Header.css";
-const Array = [
+// import "../Header/Header.css";
+export const Array = [
   {
     tittle: "General Booking Policy",
     description:

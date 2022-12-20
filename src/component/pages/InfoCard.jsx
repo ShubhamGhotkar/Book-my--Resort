@@ -12,7 +12,7 @@ const InfoCard = ({ array, tittle }) => {
               <h3>
                 <u>{items.tittle}</u>
               </h3>
-              <p>{items.description}</p>
+              <p className="card-para">{items.description}</p>
               <hr />
             </div>
           );

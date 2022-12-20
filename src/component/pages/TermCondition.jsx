@@ -54,7 +54,7 @@ const Array = [
       "dignissimos doloribus illo et commodi aut at eveniet, provident quos, quo sit, hic praesentium. Qui minima aliquid eum at praesentium quod neque, veritatis laudantium odit doloribus amet error vitae alias est sint voluptates tempore deleniti sapiente voluptate debitis. Dolore, corrupti. Officiis quas accusantium dolor ab, dolores obcaecati commodi, vel sed et accusamus cumque blanditiis saepe! Perferendis, sint tempora ab quo ipsam, excepturi dolores inventore fugit ",
   },
 ];
-const TermConditon = (prop) => {
+const TermConditon = () => {
   return (
     <InfoCard
       key={Math.random()}

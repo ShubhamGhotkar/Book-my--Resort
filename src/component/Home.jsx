@@ -2,13 +2,12 @@ import Header from "./Header/Header";
 import Main from "./main/Main";
 import Services from "./services/Services";
 import FeaturedRoom from "./features room/FeaturedRoom";
-import Footer from "./footer/Footer";
-import Footer2 from "./footer/footer2/Footer2";
+import Footer2 from "../footer2/Footer2";
 
 const Home = () => {
   return (
     <>
-      {/* <Header />
+      <Header />
       <Main
         h1="Luxurious Rooms"
         p="Delux Rooms Starting At $399"
@@ -16,7 +15,6 @@ const Home = () => {
       />
       <Services />
       <FeaturedRoom />
-      <Footer /> */}
       <Footer2 />
     </>
   );

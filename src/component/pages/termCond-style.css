@@ -34,6 +34,6 @@ hr {
 }
 #info-div,
 h3,
-p {
+.card-para {
   padding: 1rem;
 }
