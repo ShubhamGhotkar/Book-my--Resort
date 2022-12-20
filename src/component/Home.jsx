@@ -2,6 +2,7 @@ import Header from "./Header/Header";
 import Main from "./main/Main";
 import Services from "./services/Services";
 import FeaturedRoom from "./features room/FeaturedRoom";
+import Footer from "./footer/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       />
       <Services />
       <FeaturedRoom />
+      <Footer />
     </>
   );
 };
