@@ -8,13 +8,13 @@ const InfoCard = ({ array, tittle }) => {
       <div id="info-div">
         {array.map((items) => {
           return (
-            <div className="tc-div">
+            <section className="tc-div">
               <h3 id="infocard-tittle">
                 <u>{items.tittle}</u>
               </h3>
               <p className="card-para">{items.description}</p>
               <hr id="hr-tag" />
-            </div>
+            </section>
           );
         })}
       </div>

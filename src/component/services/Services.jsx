@@ -1,38 +1,21 @@
 import "./services-style.css";
-import { BiDrink } from "react-icons/bi";
-import { ImSpoonKnife, ImRss } from "react-icons/im";
 
-const sericesArray = [
-  {
-    icon: <BiDrink className="icon-big" />,
-    tittle: "Free Crocktails",
-    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-  },
-  {
-    icon: <ImSpoonKnife className="icon-big" />,
-    tittle: "Kitchen",
-    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-  },
-  {
-    icon: <ImRss className="icon-big" />,
-    tittle: "Free Wi-Fi",
-    description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
-  },
-];
+import { serviceArray } from "../../data container/ServiceArray.Data";
+
 const Services = () => {
   return (
     <section id="service-section">
       <div id="service-tittle">
-        <p>OUR SERVICES</p>
+        <h3 id="ser-h3">OUR SERVICES</h3>
       </div>
       <div id="ser-card-container">
-        {sericesArray.map((items) => {
+        {serviceArray.map((items) => {
           return (
-            <div className="service-div">
+            <section className="service-div">
               {<p className="p-icon">{items.icon}</p>}
               <h3>{items.tittle}</h3>
               <p>{items.description}</p>
-            </div>
+            </section>
           );
         })}
       </div>

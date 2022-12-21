@@ -1,7 +1,8 @@
+import { useEffect, useState } from "react";
 import { TfiTwitterAlt, TfiYoutube, TfiInstagram } from "react-icons/tfi";
-// import TermConditon from "../pages/TermCondition";
 import { Link } from "react-router-dom";
 import "./footer-style.css";
+
 const Array1 = [
   {
     titile: (
@@ -204,15 +205,15 @@ const Footer = () => {
   return (
     <>
       <footer id="footer">
-        <div className="footerdiv">
+        <section className="footerdiv">
           <div id="footerdiv1">
             <p id="footer-p1">Book My Resort</p>
             <p id="footer-p2">World Leading Chain Of Hotels and Homes</p>
           </div>
           <hr />
-        </div>
+        </section>
 
-        <div id="Tc-container">
+        <section id="Tc-container">
           <div id="soc-media-icon">
             <TfiTwitterAlt className="footer-icon" />
             <TfiYoutube className="footer-icon" />
@@ -228,18 +229,19 @@ const Footer = () => {
               return <p className="para-tag">{item.titile}</p>;
             })}
           </div>
-        </div>
+        </section>
         <hr />
-        <div id="city">
+        <section id="city">
           {Array3.map((items) => {
             return <p className="city-para">{items.city}</p>;
           })}
-        </div>
+        </section>
         <hr />
-        <p id="copyright">
-          {" "}
-          &#169;Copyright Agency and contributors 2022. ABN 53 001 228 799
-        </p>
+        <section>
+          <h4 id="copyright">
+            &#169;Copyright Agency and contributors 2022. ABN 53 001 228 799
+          </h4>
+        </section>
       </footer>
     </>
   );

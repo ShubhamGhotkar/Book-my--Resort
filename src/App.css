@@ -6,13 +6,7 @@
   /* overflow: hidden; */
 }
 
-/* Rooms */
-/* #room-div {
-  min-width: 80vw;
-  max-width: 90vw;
-  min-height: 80vh;
-  max-height: auto; */
-/* background-color: skyblue; */
-/* margin: auto; */
-/* margin-top: 2rem; */
-/* } */
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}

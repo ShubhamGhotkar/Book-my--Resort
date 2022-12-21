@@ -52,7 +52,11 @@
 #h1 {
   border: 2px solid skyblue;
   padding: 0 10px;
-  background-image: linear-gradient(30deg, skyblue, white);
+  background-image: linear-gradient(
+    30deg,
+    rgb(70, 165, 203),
+    rgb(215, 238, 248)
+  );
   border-radius: 5px;
 }
 
