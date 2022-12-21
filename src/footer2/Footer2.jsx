@@ -1,7 +1,9 @@
 import { TfiTwitterAlt, TfiYoutube, TfiInstagram } from "react-icons/tfi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
-// import TermConditon from "../component/pages/TermCondition";
+import TermConditon from "../component/pages/TermCondition";
+import GuestPolicy from "../component/pages/GuestPolicy";
+import PrivacyPolicy from "..//component/pages/PrivacyPolicy";
 // import "../component/pages/termCond-style.css";
 import "./footer2.style.css";
 
@@ -49,10 +51,16 @@ const Footer2 = () => {
             <TfiYoutube id="f-i2" className="F-icon" />
             <TfiInstagram id="f-i3" className="F-icon" />
           </div>
-          <div id="info-div">
-            <p>Guest Policy</p>
-            <p>Terms & Conditions</p>
-            <p>Privacy Policy</p>
+          <div id="Finfo-div">
+            <Link className="link" to="/guestpolicy">
+              Guest Policy
+            </Link>
+            <Link className="link" to="/termandcondition">
+              Terms & Conditions
+            </Link>
+            <Link className="link" to="/privacypolicy">
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </div>

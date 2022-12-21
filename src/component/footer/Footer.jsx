@@ -1,38 +1,203 @@
 import { TfiTwitterAlt, TfiYoutube, TfiInstagram } from "react-icons/tfi";
 // import TermConditon from "../pages/TermCondition";
+import { Link } from "react-router-dom";
 import "./footer-style.css";
 const Array1 = [
-  { titile: "About Us" },
-  { titile: "Terms and conditions" },
-  { titile: "Guest Policies" },
-  { titile: "Privacy Policy" },
-  { titile: "Trust And Safety" },
+  {
+    titile: (
+      <Link className="f-link" to="/pageonworking">
+        About Us
+      </Link>
+    ),
+  },
+  {
+    titile: (
+      <Link className="f-link" to="/termandcondition">
+        Terms and conditions
+      </Link>
+    ),
+  },
+  {
+    titile: (
+      <Link className="f-link" to="/guestpolicy">
+        Guest Policies
+      </Link>
+    ),
+  },
+  {
+    titile: (
+      <Link className="f-link" to="/privacypolicy">
+        Privacy Policy
+      </Link>
+    ),
+  },
+  {
+    titile: (
+      <Link className="f-link" to="/pageonworking">
+        Trust And Safety
+      </Link>
+    ),
+  },
 ];
+
 const Array2 = [
-  { titile: "Investor Relations" },
-  { titile: "Responsible Disclosure" },
-  { titile: "Trust And Safety" },
-  { titile: "Cyber Security Awareness" },
+  {
+    titile: (
+      <Link className="f-link" to="/pageonworking">
+        Investor Relations
+      </Link>
+    ),
+  },
+  {
+    titile: (
+      <Link className="f-link" to="/pageonworking">
+        Responsible Disclosure
+      </Link>
+    ),
+  },
+  {
+    titile: (
+      <Link className="f-link" to="/pageonworking">
+        Trust And Safety
+      </Link>
+    ),
+  },
+  {
+    titile: (
+      <Link className="f-link" to="/pageonworking">
+        Cyber Security Awareness
+      </Link>
+    ),
+  },
 ];
+
 const Array3 = [
-  { city: "Hotels in Mumbai" },
-  { city: "Hotels in Puna" },
-  { city: "Hotels in Nagpur" },
-  { city: "Hotels in Gondia" },
-  { city: "Hotels in Amravati" },
-  { city: "Hotels in Agra" },
-  { city: "Hotels in Akola" },
-  { city: "Hotels in Shegao" },
-  { city: "Hotels in Asam" },
-  { city: "Hotels in New Delhi" },
-  { city: "Hotels in Rajastan" },
-  { city: "Hotels in Kotha" },
-  { city: "Hotels in Goa" },
-  { city: "Hotels in Wardha" },
-  { city: "Hotels in Gujrat" },
-  { city: "Hotels in Banglore" },
-  { city: "Hotels in Tiwsa" },
-  { city: "Hotels in YavatMal" },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
+  {
+    city: (
+      <Link className="f-link" to="/pageonworking">
+        Hotels in Mumbai
+      </Link>
+    ),
+  },
 ];
 
 const Footer = () => {

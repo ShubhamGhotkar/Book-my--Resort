@@ -2,7 +2,8 @@
   margin-top: 10vh;
   min-height: 70vh;
   max-height: fit-content;
-  width: 100vw;
+  min-width: 97vw;
+  max-width: 100vw;
   color: white;
   background-color: rgba(33, 33, 33, 1);
 }
@@ -104,7 +105,7 @@ button:hover {
   min-width: 100%;
 }
 
-#info-div {
+#Finfo-div {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
@@ -112,11 +113,13 @@ button:hover {
   min-height: 100%;
   max-height: auto;
 }
-#info-div p {
+#Finfo-div .link {
   min-height: 12vh;
   display: grid;
   place-items: end;
   padding: 5px;
+  color: white;
+  text-decoration: none;
 }
 #icons-div {
   display: flex;

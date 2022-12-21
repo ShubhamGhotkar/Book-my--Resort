@@ -1,5 +1,9 @@
+import { useState } from "react";
 import "./featuresRoom-style.css";
 const Card = (prop) => {
+  const [show, setShow] = useState(true);
+
+  const css = { backgroundImage: `url ${prop.imgsource}` };
   return (
     <div className="featured-room">
       <div className="img-div">
@@ -7,9 +11,13 @@ const Card = (prop) => {
           <h3>{prop.rate}</h3>
           <p>{prop.time}</p>
         </div>
-        <img src={prop.imgsource} alt="Room" />
+
+        <div className="hei-wid-full ">
+          <img src={prop.imgsource} alt="Room" className="hei-wid-full " />
+        </div>
       </div>
-      <div className="room-type">
+
+      <div id="btns-div">
         <button className="room-btn">{prop.feature}</button>
       </div>
     </div>

@@ -9,11 +9,11 @@ const InfoCard = ({ array, tittle }) => {
         {array.map((items) => {
           return (
             <div className="tc-div">
-              <h3>
+              <h3 id="infocard-tittle">
                 <u>{items.tittle}</u>
               </h3>
               <p className="card-para">{items.description}</p>
-              <hr />
+              <hr id="hr-tag" />
             </div>
           );
         })}

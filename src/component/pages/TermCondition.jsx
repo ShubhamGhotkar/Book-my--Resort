@@ -1,5 +1,7 @@
 import "./termCond-style.css";
 import InfoCard from "./InfoCard";
+import Header from "../Header/Header";
+import Footer2 from "../../footer2/Footer2";
 
 const Array = [
   {
@@ -56,11 +58,15 @@ const Array = [
 ];
 const TermConditon = () => {
   return (
-    <InfoCard
-      key={Math.random()}
-      array={Array}
-      tittle={"Terms and conditions"}
-    />
+    <>
+      <Header />
+      <InfoCard
+        key={Math.random()}
+        array={Array}
+        tittle={"Terms and conditions"}
+      />
+      <Footer2 />
+    </>
   );
 };
 export default TermConditon;

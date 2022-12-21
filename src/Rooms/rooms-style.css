@@ -3,7 +3,6 @@
   max-width: 90vw;
   min-height: 50vh;
   max-height: auto;
-  /* background-color: orange; */
   margin: auto;
 }
 #import-header-div {
@@ -13,7 +12,7 @@
   min-height: 10vh;
   max-height: 15vh;
   width: 100%;
-  margin: 5vh auto;
+  margin: 3vh auto 1vh auto;
   display: grid;
   place-items: center;
   font-size: 1.6rem;
@@ -23,9 +22,55 @@
   font-weight: 800;
 }
 #search-bar {
-  min-height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 10vh;
   max-height: auto;
-  width: 100%;
-  background-color: rgb(212, 210, 210);
-  margin: 5vh auto;
+  width: 80%;
+  /* background-color: rgb(212, 210, 210); */
+  margin: 2vh auto;
+}
+#select_bar {
+  display: grid;
+  place-items: center;
+  /* background-color: purple; */
+  width: 20%;
+}
+
+#num-inpDiv {
+  /* height: 100%; */
+  display: grid;
+  place-items: center;
+  max-width: 30%;
+  /* background-color: blue; */
+  padding: 3px;
+}
+#M-auto {
+  /* padding: px; */
+  margin: auto;
+  margin-top: 3px;
+}
+#ch-btn {
+  display: grid;
+  place-items: start;
+  width: 10%;
+  height: 100%;
+  /* background-color: orange; */
+}
+.ch-bx {
+  height: 100%;
+  padding: 2px 5px;
+  width: 80%;
+}
+#slider-div {
+  display: grid;
+  place-items: center;
+  width: 20%;
+}
+#sl {
+  /* background-color: red; */
+  height: 100%;
+  padding: 2px 5px;
+  width: 80%;
+  margin: auto;
 }

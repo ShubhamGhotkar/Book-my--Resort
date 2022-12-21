@@ -1,5 +1,6 @@
 import "./services-style.css";
 import { BiDrink } from "react-icons/bi";
+import { ImSpoonKnife, ImRss } from "react-icons/im";
 
 const sericesArray = [
   {
@@ -8,13 +9,13 @@ const sericesArray = [
     description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
   },
   {
-    icon: <BiDrink className="icon-big" />,
-    tittle: "Endless Hiking",
+    icon: <ImSpoonKnife className="icon-big" />,
+    tittle: "Kitchen",
     description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
   },
   {
-    icon: <BiDrink className="icon-big" />,
-    tittle: "Free Shuttle",
+    icon: <ImRss className="icon-big" />,
+    tittle: "Free Wi-Fi",
     description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
   },
 ];

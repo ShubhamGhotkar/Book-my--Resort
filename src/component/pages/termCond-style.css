@@ -3,7 +3,6 @@
   min-width: 99vw;
   max-width: 100vw;
   max-height: auto;
-  margin-top: 2rem;
 }
 #info-div {
   min-height: 100%;
@@ -26,14 +25,12 @@
 #info-div .tc-div {
   width: 80%;
   margin: 1rem auto;
-  /* background-color: rgb(232, 225, 225, 0.5); */
-  /* box-shadow: 1px 11px 1px 1px rgb(225, 221, 221, 0.6); */
 }
-hr {
+#hr-tag {
   margin: 1rem;
 }
 #info-div,
-h3,
+#infocard-tittle,
 .card-para {
   padding: 1rem;
 }

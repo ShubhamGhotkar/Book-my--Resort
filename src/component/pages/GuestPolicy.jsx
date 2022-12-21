@@ -1,7 +1,6 @@
 import Header from "../Header/Header";
 import InfoCard from "./InfoCard";
-
-// import "../Header/Header.css";
+import Footer2 from "../../footer2/Footer2";
 export const Array = [
   {
     tittle: "General Booking Policy",
@@ -72,6 +71,7 @@ const GuestPolicy = () => {
         array={Array}
         tittle={"Guest Policies For Hotels And Homes In India."}
       />
+      <Footer2 />
     </>
   );
 };
