@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/book-my-resort/static/css/main.3fc4baa5.css",
+    "main.js": "/book-my-resort/static/js/main.577163fe.js",
+    "static/js/787.400d16d3.chunk.js": "/book-my-resort/static/js/787.400d16d3.chunk.js",
+    "static/media/details-1.jpeg": "/book-my-resort/static/media/details-1.c485174060e0cfd387f1.jpeg",
+    "static/media/room-7.jpeg": "/book-my-resort/static/media/room-7.d2c011f051d458d2d48a.jpeg",
+    "static/media/room-9.jpeg": "/book-my-resort/static/media/room-9.18aabe9f1ed70f66b8e6.jpeg",
+    "static/media/room-8.jpeg": "/book-my-resort/static/media/room-8.5b658df923f6b0a37333.jpeg",
+    "static/media/room-4.jpeg": "/book-my-resort/static/media/room-4.10d2e64aa888c177d9df.jpeg",
+    "static/media/details-4.jpeg": "/book-my-resort/static/media/details-4.f205365481a6e6d8d00c.jpeg",
+    "static/media/room-12.jpeg": "/book-my-resort/static/media/room-12.7dee4920e87b72612002.jpeg",
+    "static/media/room-5.jpeg": "/book-my-resort/static/media/room-5.a7c5e078d85d333d32e0.jpeg",
+    "static/media/details-2.jpeg": "/book-my-resort/static/media/details-2.dc89255d017962849975.jpeg",
+    "static/media/room-10.jpeg": "/book-my-resort/static/media/room-10.681615dca97a45f14458.jpeg",
+    "static/media/room-6.jpeg": "/book-my-resort/static/media/room-6.3697aea3f8cd105b714c.jpeg",
+    "static/media/room-11.jpeg": "/book-my-resort/static/media/room-11.1605f19efd5584308ff6.jpeg",
+    "static/media/room-1.jpeg": "/book-my-resort/static/media/room-1.05b90599c65239c23f1c.jpeg",
+    "static/media/room-3.jpeg": "/book-my-resort/static/media/room-3.92fc5b83310c97eec345.jpeg",
+    "static/media/room-2.jpeg": "/book-my-resort/static/media/room-2.48c6018125bd1cf193ba.jpeg",
+    "static/media/details-3.jpeg": "/book-my-resort/static/media/details-3.f525a3c8d6914f54085e.jpeg",
+    "index.html": "/book-my-resort/index.html",
+    "main.3fc4baa5.css.map": "/book-my-resort/static/css/main.3fc4baa5.css.map",
+    "main.577163fe.js.map": "/book-my-resort/static/js/main.577163fe.js.map",
+    "787.400d16d3.chunk.js.map": "/book-my-resort/static/js/787.400d16d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fc4baa5.css",
+    "static/js/main.577163fe.js"
+  ]
+}
