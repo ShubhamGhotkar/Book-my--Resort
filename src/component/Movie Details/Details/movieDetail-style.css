@@ -1,0 +1,244 @@
+.main-container {
+    width: 100vw;
+    min-height: max-content;
+    background-color: #202020;
+    margin: 5vh auto;
+
+}
+
+
+.detail-container {
+    display: flex;
+    width: 80vw;
+    max-height: max-content !important;
+    background-color: #383838;
+    margin: 2rem auto 0;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, rgb(15, 16, 16) 30%, #121a57ba 80%);
+
+}
+
+.container {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 22px;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 50vw;
+    color: white;
+    z-index: 99;
+    max-height: max-content;
+}
+
+.img-container {
+    height: 100%;
+    width: 40%;
+    margin: auto;
+}
+
+.img-div img {
+    display: flex;
+    height: 200px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.img-div {
+    display: flex;
+    max-height: max-content;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 47vw;
+    flex-direction: row !important;
+}
+
+.details {
+    width: 100%;
+    height: 50%;
+    max-height: max-content;
+}
+
+.details p {
+    margin-top: 5px;
+}
+
+.overview {
+    width: 60vw;
+    height: max-content;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.overview .tittle {
+    font-size: 25px;
+    font-weight: 460;
+}
+
+.overview .description {
+    font-size: 14px;
+    width: 85%;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+
+}
+
+.rating {
+    font-size: 18px;
+    color: skyblue;
+}
+
+.movie-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.time {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    height: max-content;
+}
+
+.description {
+    color: whitesmoke;
+}
+
+.postal-div {
+    width: 32vw;
+    height: 20%;
+    margin: auto 5rem;
+    border-radius: 8px;
+    border: solid 1.5em rgba(#000, .03);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.postal-div img {
+    height: 100%;
+    width: 100%;
+    background-color: #777676ad;
+    border-radius: 8px;
+    border: solid 1.5em rgba(#000, .03);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* Cast */
+
+.cast-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90vw;
+
+    margin: 4vh auto;
+    gap: 5rem;
+
+}
+
+.cast-tittle {
+    font-size: 30px;
+    font-weight: 550;
+    color: white;
+    margin: 3rem 7rem;
+}
+
+/* MEdia Query */
+
+/* 
+@media only screen and (max-width: 610px) {
+    .detail-container {
+        height: max-content;
+    }
+
+    .img-container {
+        height: 63%;
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .postal-div img {
+        display: none;
+    }
+
+    .img-div {
+        display: flex;
+        flex-wrap: wrap;
+        height: 51vh;
+        justify-content: space-around;
+        align-items: center;
+        width: 75vw;
+    }
+
+    .img-div img {
+        display: flex;
+        height: 34vh;
+        width: 64vw;
+        margin: auto 1rem;
+        justify-content: center;
+    }
+
+    .overview {
+        width: 80vw;
+        height: max-content;
+        color: white;
+        margin: 6rem 0;
+    }
+} */
+
+/* 
+@media only screen and (min-width: 800px) {
+    .detail-container {
+        height: max-content;
+    }
+
+    .container {
+        width: 30vw;
+    }
+    .postal-div{
+        display: grid;
+        place-items: center;
+        height: 50%;
+        width: 100%;
+    }
+    .postal-div img {
+        display: block;
+        width: 31vw;
+        height: 100%;
+        margin: 1rem 0rem;
+    }
+    .img-div {
+        display: flex;
+        height: 51vh;
+        width: 50vw;
+        flex-direction: column !important;
+    }
+    .img-container{
+        width: 97%;
+    }
+    .img-div img {
+        height: 29vh;
+        width: 18vw;
+    }
+    
+    .details {
+        height: 50%;
+        width: 50%;
+        margin-top: 1rem;
+    }
+    
+    .details p {
+        margin-top: 8px;
+    }
+    
+    .overview {
+        width: 80vw;
+        height: max-content;
+        color: white;
+        margin: 3rem 0;
+    }
+} */
