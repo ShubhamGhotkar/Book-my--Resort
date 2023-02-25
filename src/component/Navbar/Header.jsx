@@ -9,7 +9,7 @@ import './navbar-style.css'
 import { useState, useEffect } from "react"
 
 
-function NewNavbar({ Data, URL }) {
+function Header({ Data, URL }) {
 
   
   const [movie, setMovie] = useState([])
@@ -113,4 +113,4 @@ function NewNavbar({ Data, URL }) {
 
 
 
-export default NewNavbar;
+export default Header;

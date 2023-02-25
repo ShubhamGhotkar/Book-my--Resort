@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Pagination from "../Pagination/Pagination";
-import NewNavbar from "./NewNavbar";
+import Header from "../Navbar/Header";
 
 const Data = ({ Data, URL }) => {
 
@@ -9,7 +9,7 @@ const Data = ({ Data, URL }) => {
 
     return (
         <>
-            <NewNavbar Data={getData} URL={URL} />
+            <Header Data={getData} URL={URL} />
             <Pagination data={data} />
 
         </>

@@ -4,7 +4,7 @@ const PaginationPage = ({ postsPerPage, totalPosts, paginate }) => {
     for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
       pageNumbers.push(i);
     }
-  
+
     return (
       <nav className="pag-nav mr-3 ">
         <ul className='pagination mr-2 fixed'>

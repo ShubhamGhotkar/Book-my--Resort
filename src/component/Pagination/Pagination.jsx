@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import Card from '../Card/Card';
 import PaginationPage from './PaginationPage'
+import Card from '../Card/Card';
 import './pagination-style.css'
+import React, { useState, useEffect } from 'react';
 
 const Pagination = ({ data }) => {
     const [posts, setPosts] = useState([]);
@@ -27,7 +27,7 @@ const Pagination = ({ data }) => {
     return (
         <div className="movie-container">
             {currentPosts.map((item, ind) => <Card prop={item} key={ind} />)}
-            <PaginationPage id='pagination-container'
+            <PaginationPage 
                 postsPerPage={postsPerPage}
                 totalPosts={posts.length}
                 paginate={paginate}
