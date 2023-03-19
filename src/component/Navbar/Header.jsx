@@ -6,7 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar-style.css'
+import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react"
+
 
 
 function Header({ Data, URL }) {
@@ -82,10 +84,10 @@ function Header({ Data, URL }) {
                   </Offcanvas.Header>
                   <Offcanvas.Body>
 
-                    <Nav className="justify-content-end flex-grow-1 pe-3 text-dark bg-dark " >
-                      <Nav.Link href="/popular" className='text-white p-2 mx-2' >Popular</Nav.Link>
-                      <Nav.Link href="/topratedmovie" className='text-white p-2 mx-2'>Top Rated</Nav.Link>
-                      <Nav.Link href="/upcomingmovie" className='text-white p-2 mx-2'>Upcoming</Nav.Link>
+                    <Nav className="justify-content-end flex-grow-1 pe-3 text-dark bg-dark text-decoration-none" >
+                    <Link className='text-decoration-none text-white ml-5 mt-2' to="/popular">Popular</Link>
+                    <Link className='text-decoration-none text-white ml-5 mt-2' to="/topratedmovie">Top Rated</Link>
+                    <Link className='text-decoration-none text-white ml-5 mt-2' to="/upcomingmovie">Upcoming</Link>
                     </Nav>
 
                     <Form className="d-flex mx-3 " onSubmit={searchMovie} >
